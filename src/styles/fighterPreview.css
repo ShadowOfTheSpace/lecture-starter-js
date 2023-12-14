@@ -11,3 +11,29 @@
 .fighter-preview___left {
   align-items: flex-start;
 }
+
+.fighter-preview___right img {
+  transform: scaleX(-1)
+}
+
+.fighter-preview___root img {
+  height: 240px;
+}
+
+.fighter-preview___text-info {
+  width: 110px;
+  padding: 1px 10px;
+  color: black;
+  border: 5px solid #ca9650;
+  background-color: rgba(255, 223, 167, 1);
+}
+
+.fighter-preview___text-info {
+  text-align: center;
+}
+
+.fighter-preview___right .fighter-preview___text-info :first-child,
+.fighter-preview___left .fighter-preview___text-info :first-child{
+  text-align: center;
+  font-weight: bold;
+}
